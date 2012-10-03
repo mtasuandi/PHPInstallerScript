@@ -1,0 +1,56 @@
+#error_messege{
+    width: auto;
+    font-family: Arial;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+h1{
+	font-family: 'AsapRegular';
+	padding:10px 10px;
+	padding-bottom:0px;
+	margin:0px 0px;
+	text-decoration:underline;
+	font-size:20px;
+}
+h3{
+	font-family: 'AsapRegular';
+	padding:10px 10px;
+	padding-bottom:0px;
+	margin:0px 0px;
+	font-size:15px;
+}
+.block {
+	width:500px;
+	height: 370px;
+	margin:0 auto;
+	text-align:left;
+}
+.element * {
+	padding:5px; 
+	margin:2px; 
+	font-family:arial;
+	font-size:12px;
+}
+.element label {
+	float:left; 
+	width:150px;
+	font-weight:700;
+	font-family: 'AsapRegular';
+}
+.element input.text {
+	float:left; 
+	width:270px;
+	padding-left:10px;
+}
+#nextInstall{
+	background:#212121;
+	color:white;
+	font-family: 'BebasNeueRegular';
+	padding: 5px 25px;
+	margin-left: 5px;
+	font-size:20px;
+	text-align:left;
+	text-shadow:1px 0px 2px black;
+}

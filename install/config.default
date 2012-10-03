@@ -1,0 +1,32 @@
+<?php
+
+class globalConfiguration {
+
+    private $serverName = "_DB_HOST_";
+    private $user = "_DB_USER_";
+    private $password = "_DB_PASSWORD_";
+    private $databaseName = "_DB_NAME_";
+    private $siteName = "JV Leaderboard";
+
+    public function getServerName() {
+        return $this->serverName;
+    }
+
+   public function getUser() {
+        return $this->user;
+    }
+
+   public function getPassword() {
+        return $this->password;
+    }
+
+   public function getDatabaseName() {
+        return $this->databaseName;
+    }
+
+   public function getSiteName() {
+        return $this->siteName;
+    }
+}
+
+?>
